@@ -44,5 +44,13 @@ $ ./gitcommit.sh "My commit message"
 1. Copy script `buildsite.sh` to the repo directory. `cd` into the repo directory.
 2. Build the site and make an archive.
 ```
-$./buildsite.sh
+$ ./buildsite.sh
+```
+
+## Upload website
+
+1. Copy `site.tar.gz` to the same location where `uploadsite.sh` is placed.
+2. Execute `uploadsite.sh` to upload the website.
+```
+$ ./uploadsite.sh
 ``` 
