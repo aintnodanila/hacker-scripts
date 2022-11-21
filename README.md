@@ -29,3 +29,12 @@ $ ./script/bootstrap
 ```
 $ ./installnginx.sh
 ```
+
+## Commit your changes 
+
+1. Copy `gitcommit.sh` to the repo directory.
+2. `cd` into the repo directory.
+3. Execute the script.
+```
+$ ./gitcommit.sh "My commit message"
+``` 
