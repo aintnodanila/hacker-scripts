@@ -8,12 +8,18 @@ Scripts for deploying a jekyll website.
 ```
 # ./installdevtools.sh
 ```
-2. Clone the repository.
+2. Configure gem installation directory.
+```
+$ ./configuregems.sh
+$ source ~/.bashrc
+```
+3. Clone the repository.
 ```
 $ ./clonerepo.sh
 ```
-3. Install nescessary rubygems.
+4. Install nescessary rubygems.
 ```
 $ cd hacker/
 $ ./script/bootstrap
 ```  
+
