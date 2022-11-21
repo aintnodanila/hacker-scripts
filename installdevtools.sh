@@ -10,5 +10,5 @@ fi
 
 # Install git and ruby
 apt-get install git
-apt-get install ruby-full build-essential zlib1g-dev
+apt-get install ruby build-essential zlib1g-dev
 
