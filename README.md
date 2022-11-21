@@ -23,3 +23,9 @@ $ cd hacker/
 $ ./script/bootstrap
 ```  
 
+## Configure a website host 
+
+1. Install nginx, enable service, open firewall.
+```
+$ ./installnginx.sh
+```
